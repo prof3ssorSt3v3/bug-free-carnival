@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cache and Files</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <form>
+      <input type="file" name="imgfile" id="imgfile" accept="image/*" placeholder="select an image" />
+      <button id="btnSave">Save selected image in Cache</button>
+    </form>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <p><button id="btnBlob">Click to get Blob from Canvas</button></p>
+    <p><button id="btnLoad">Load image from Cache</button></p>
+    <p><img alt="puppy" /></p>
+  </body>
+</html>
